@@ -16,7 +16,7 @@ CREATE ROLE agente_checkin;
 
 
 -- Conceder Papel aos Usuários --
-GRANT `admin` TO 'admin';
+GRANT `admin` TO 'Mohamad'@'localhost';
 GRANT gerente_operacoes TO 'Gabriel'@'localhost';
 GRANT atendimento_cliente TO 'Vinicius'@'localhost';
 GRANT tecnico_manutencao TO 'Luca'@'localhost';
